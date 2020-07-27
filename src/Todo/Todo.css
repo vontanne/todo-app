@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.main {
+  width: 450px;
+  margin: 10px auto;
+}
+
+.header {
+  margin-left: 4px;
+}
+
+.form {
+  display: flex;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 200px;
+  height: 35px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input:focus {
+  outline-style: none;
+}
+
+.input::placeholder {
+  padding-left: 7px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.btn {
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 125px;
+  height: 35px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: steelblue;
+}
+
+.btn:focus {
+  outline-style: none;
+}
+
+.btn:active {
+  background-color: slateblue;
+  font-size: 21px;
+}
+
+.todo-list {
+  list-style-type: none;
+}
+
+.list-item {
+  box-sizing: border-box;
+  height: 27px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.list-item:nth-child(even) {
+  background-color: #fff;
+}
+
+.checkbox {
+  width: 15px;
+}
+
+.text {
+  width: 385px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: default;
+  color: steelblue;
+}
+
+.done {
+  text-decoration: line-through;
+  font-weight: normal;
+}
+
+.important {
+  color: tomato;
+}
+
+.edit {
+  width: 25px;
+}
+
+.trash {
+  width: 25px;
+}
