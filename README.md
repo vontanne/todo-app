@@ -1,6 +1,10 @@
 # TodoApp
 
-This is a simple app to help you keep track of things you need to do. It's made with pure HTML, CSS and JavaScript, which means it's easy to understand and use.
+This is a simple app to help you keep track of things you need to do. It's made with pure HTML, CSS, and JavaScript, which means it's easy to understand and use.
+
+## Live Demo
+
+Experience the TodoApp directly in your browser without any installation by visiting our live demo: [TodoApp Live Demo](https://vontanne.github.io/todo-app/)
 
 ## How to Use
 
@@ -12,6 +16,8 @@ You don't need to install anything special to use this app. Just follow these st
    - Click "Download ZIP", then unzip the file.
 
 2. Find the `index.html` file in the unzipped folder and double-click it. This will open the app in your web browser.
+
+Alternatively, you can use the live version available at the above link to quickly start managing your tasks.
 
 3. Now you can start using the app:
    - To add a new task, type something in the box and press Enter.
